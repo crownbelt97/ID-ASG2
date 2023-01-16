@@ -12,11 +12,13 @@
 .flex {
   display: flex;
   gap: var(--gap, 1rem);
+	
 }
 /* ADJUSTING ITEMS TO BE ALL THE WAY TO THE RIGHT */
 .primary-header {
   align-content: center;
   justify-content: space-between;
+	box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
 }
 /* REMOVED BULLET POINT ON LISTING OF NAVIGATION BAR */
 .primary-navigation {
