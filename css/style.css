@@ -12,13 +12,12 @@
 .flex {
   display: flex;
   gap: var(--gap, 1rem);
-	
 }
 /* ADJUSTING ITEMS TO BE ALL THE WAY TO THE RIGHT */
 .primary-header {
   align-content: center;
   justify-content: space-between;
-	box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
 }
 /* REMOVED BULLET POINT ON LISTING OF NAVIGATION BAR */
 .primary-navigation {
@@ -27,7 +26,6 @@
   margin: 0;
   background: hsl(0 0% 0% / 0.5);
   backdrop-filter: blur(1rem);
-	
 }
 /* ENSURING ALL BROWSER VIEWS THE SAME THING */
 @supports (backdrop-filter: blur(1rem)) {
@@ -271,6 +269,73 @@ form.sign-in-form {
 .accounts-container.sign-up-mode .right-panel {
   pointer-events: all;
 }
+/*------------------------------------------ CART PAGE ------------------------------------------ */
+.cart-page {
+  width: 98%;
+  margin: 100px auto 200px auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.cart-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+th {
+  text-align: left;
+  padding: 5px;
+  color: #fff;
+  background: #3586ff;
+  font-weight: normal;
+}
+td {
+  padding: 10px 5px;
+}
+td input {
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+  pointer-events: none;
+}
+td a {
+  color: #3586ff;
+  font-size: 12px;
+}
+td img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+.total-price {
+  display: flex;
+  justify-content: flex-end;
+}
+.total-price table {
+  border-top: 3px solid #3586ff;
+  width: 100%;
+  max-width: 400px;
+}
+td:last-child {
+  text-align: right;
+}
+td:last-child {
+  text-align: right;
+}
+.cart-button {
+  background-color: #3586ff;
+  border: none;
+  color: white;
+  padding: 15px 150px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 49px;
+  float: right;
+}
 /*------------------------------------------ FOOTER ------------------------------------------ */
 footer {
   position: relative;
@@ -454,6 +519,10 @@ footer .wave#wave4 {
   .accounts-container.sign-up-mode .signin-signup {
     top: 5%;
     transform: translate(-50%, 0);
+  }
+  /* CART PAGE */
+  .cart-info p {
+    display: none;
   }
 }
 @media (min-width: 560px) and (max-width: 55em) {
