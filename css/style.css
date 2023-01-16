@@ -1,5 +1,7 @@
 @charset "utf-8";
-
+body {
+    font-family: Helvetica Neue, Arial, sans-serif;
+}
 /* CSS Document */
 /*------------------------------------------ NAVIGATION BAR ------------------------------------------ */
 /* ADJUSTING ITEMS TO BE BESIDE EACH OTHER */
