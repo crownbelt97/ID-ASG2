@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+/* CSS Document */
+/*------------------------------------------ NAVIGATION BAR ------------------------------------------ */
+/* ADJUSTING ITEMS TO BE BESIDE EACH OTHER */
+.flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
+/* ADJUSTING ITEMS TO BE ALL THE WAY TO THE RIGHT */
+.primary-header {
+  align-content: center;
+  justify-content: space-between;
+}
+/* REMOVED BULLET POINT ON LISTING OF NAVIGATION BAR */
+.primary-navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: hsl(0 0% 0% / 0.5);
+  backdrop-filter: blur(1rem);
+}
+/* ENSURING ALL BROWSER VIEWS THE SAME THING */
+@supports (backdrop-filter: blur(1rem)) {
+  .primary-navigation {
+    background: hsl(0 0% 100% / 0.1);
+    backdrop-filter: blur(1rem);
+  }
+}
+/* SETS TEXT PROPERTIES */
+.primary-navigation a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+.primary-navigation a > [aria-hidden="true"] {
+  font-weight: 700;
+  margin-inline-end: 0.75rem;
+}
+/* HAMBURGER ICON HIDDEN WHEN DESKTOP VIEW */
+.mobile-nav-toggle {
+  display: none;
+}
+@media (min-width: 560px) and (max-width: 55em) {
+  .primary-navigation a > span[aria-hidden=""] {
+    display: none;
+  }
+}
+@media (min-width: 35em) {
+  .primary-navigation {
+    --gap: clamp(1.5rem, 5vw, 3rem);
+    padding-block: 2rem;
+    padding-inline: clamp(3rem, 10vw, 10rem);
+  }
+}
+@media (max-width: 560px) {
+  .primary-navigation {
+    --gap: 2em;
+    position: fixed;
+    z-index: 1000;
+    inset: 0 0 0 30%;
+    flex-direction: column;
+    padding: min(30vh, 10rem) 2em;
+    transform: translateX(100%);
+    transition: transform 350ms ease-out;
+  }
+  /* WIDTH OF DROPDOWN MENU WHEN RESPONSIVE */
+  .primary-navigation[data-visible="true"] {
+    transform: translateX(0%);
+  }
+  /* HAMBURGER MENU ICON */
+  .mobile-nav-toggle {
+    display: unset;
+    position: absolute;
+    z-index: 9999;
+    background-image: url("../Resources/hamburger-menu.svg");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    width: 42px;
+    border: 0;
+    aspect-ratio: 1;
+    margin-left: 35%;
+  }
+  /* CLOSE HAMBURGER MENU ICON */
+  .mobile-nav-toggle[aria-expanded="true"] {
+    background-image: url("../Resources/close-hamburger.svg")
+  }
+}
