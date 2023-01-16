@@ -459,4 +459,30 @@ form.sign-in-form {
   .mobile-nav-toggle[aria-expanded="true"] {
     background-image: url("../Resources/close-hamburger.svg")
   }
+	
+	/* ACCOUNTS PAGE */
+	
+	form {
+    padding: 0 1.5rem;
+  }
+
+  .image {
+    display: none;
+  }
+  .panel .content {
+    padding: 0.5rem 1rem;
+  }
+  .accounts-container {
+    padding: 1.5rem;
+  }
+
+  .accounts-container:before {
+    bottom: 72%;
+    left: 50%;
+  }
+
+  .accounts-container.sign-up-mode:before {
+    bottom: 28%;
+    left: 50%;
+  }
 }
