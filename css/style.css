@@ -53,22 +53,25 @@
 .about {
   width: 100%;
   height: 100vh;
-  background-color: black;
+  background-color:#383838;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .about_content{
+  width: 1280px;
+  max-width: 95%;
   margin: 0 auto;
   display: flex;
-
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
 }
 
 .about .about_content img{
   height: auto;
+  width: 600px;
   max-width: 100%;
 }
 
@@ -522,6 +525,28 @@ footer .wave#wave4 {
 }
 /*------------------------------------------ RESPONSIVE MEDIA VIEWS STARTS HERE ------------------------------------------ */
 @media (max-width: 870px) {
+  /*--------------ABOUT-------------------*/
+  .about {
+    width: 100%;
+    height: auto;
+    padding: 70px 0px;
+  }
+
+  .about .about_content img {
+    margin-bottom: 35px;
+    max-width: 90%;
+  }
+
+  .about_text h1 {
+    font-size: 40px;
+  }
+
+  .about_text p {
+    font-size: 20px;
+  }
+
+  /*--------------ABOUT ENDS-------------------*/
+
   .accounts-container {
     min-height: 800px;
     height: 100vh;
