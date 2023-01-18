@@ -37,42 +37,131 @@
     </ul>
   </nav>
 </header>
-<!-- CHECKOUT PAGE CONTENTS -->
-<div class="progress-checkout-container">
-  <div class="progress-step-container">
-    <div class="step-check"></div>
-    <span class="step-title">Shipping</span> </div>
-  <div class="progress-step-container">
-    <div class="step-check"></div>
-    <span class="step-title">Payment</span> </div>
-  <div class="progress-step-container">
-    <div class="step-check"></div>
-    <span class="step-title">Review</span> </div>
-</div>
-<div class="checkout-form-container">
-  <h2 class="checkout-form-title">Payment Details</h2>
-  <form action="" class="checkout-form">
-    <div class="checkout-input-line">
-      <label for="name">Name on card</label>
-      <input type="text" name="name" class="checkout-input" id="name" placeholder="Your name and surname">
-    </div>
-    <div class="checkout-input-line">
-      <label for="card">Card number</label>
-      <input type="text" name="card" class="checkout-input" id="card" placeholder="1111-2222-3333-4444">
-    </div>
-    <div class="checkout-input-container">
-      <div class="checkout-input-line">
-        <label for="date">Expiring Date</label>
-        <input type="text"  name="date" class="checkout-input" id="date" placeholder="09-21">
+<!-- CHECKOUT PAGE CONTENTS --> 
+<!-- PAYMENT DETAILS -->
+<div class="container">
+  <div class="pages">
+    <div class="page one">
+      <div class="progress-checkout-container">
+        <div class="progress-step-container">
+          <div class="step-check"></div>
+          <span class="step-title">Payment</span> </div>
+        <div class="progress-step-container">
+          <div class="step-check"></div>
+          <span class="step-title">Shipping</span> </div>
+        <div class="progress-step-container">
+          <div class="step-check"></div>
+          <span class="step-title">Review</span> </div>
       </div>
-      <div class="checkout-input-line">
-        <label for="date">CVC</label>
-        <input type="text" name="cvc" class="checkout-input" id="cvc" placeholder="***">
+      <div class="checkout-form-container">
+        <h2 class="checkout-form-title">Payment Details</h2>
+        <form action="" class="checkout-form">
+          <div class="checkout-input-line">
+            <label for="name">Name on card</label>
+            <input type="text" name="name" class="checkout-input" id="name" placeholder="Your name and surname">
+          </div>
+          <div class="checkout-input-line">
+            <label for="card">Card number</label>
+            <input type="text" name="card" class="checkout-input" id="card" placeholder="1111-2222-3333-4444">
+          </div>
+          <div class="checkout-input-container">
+            <div class="checkout-input-line">
+              <label for="date">Expire Date</label>
+              <input type="text"  name="date" class="checkout-input" id="date" placeholder="09-21">
+            </div>
+            <div class="checkout-input-line">
+              <label for="date">CVC</label>
+              <input type="text" name="cvc" class="checkout-input" id="cvc" placeholder="***">
+            </div>
+          </div>
+        </form>
+        <div class="checkout-btn-div">
+          <button class="checkout-btn" onClick="slide('next')">Proceed to Shipping Details</button>
+        </div>
       </div>
     </div>
-	  <input type="button" class="checkout-btn" value="Complete Purchase">
-  </form>
+    <!-- SHIPPING DETAILS -->
+    <div class="page two">
+      <div class="progress-checkout-container">
+        <div class="progress-step-container2">
+          <div class="step-check"></div>
+          <span class="step-title">Payment</span> </div>
+        <div class="progress-step-container2">
+          <div class="step-check"></div>
+          <span class="step-title">Shipping</span> </div>
+        <div class="progress-step-container2">
+          <div class="step-check"></div>
+          <span class="step-title">Review</span> </div>
+      </div>
+      <div class="checkout-form-container">
+        <h2 class="checkout-form-title">Shipping Details</h2>
+        <form action="" class="checkout-form">
+          <div class="checkout-input-container">
+            <div class="checkout-input-line">
+              <label for="date">First Address</label>
+              <input type="text"  name="date" class="checkout-input" id="first-address" placeholder="Your First Address">
+            </div>
+            <div class="checkout-input-line">
+              <label for="date">Second Address</label>
+              <input type="text" name="cvc" class="checkout-input" id="second-address" placeholder="Your Second Address">
+            </div>
+          </div>
+          <div class="checkout-input-line">
+            <label for="name">Postal Code</label>
+            <input type="text" name="name" class="checkout-input" id="postal-code" placeholder="Your Postal Code">
+          </div>
+          <div class="checkout-input-line">
+            <label for="card">Country / City</label>
+            <input type="text" name="card" class="checkout-input" id="country" placeholder="Residential Country">
+          </div>
+        </form>
+        <div class="checkout-btn-div">
+          
+          <button class="checkout-btn" onClick="slide('prev')">Previous</button>
+			<button class="checkout-btn" onClick="slide('next')">Confirm Order</button>
+        </div>
+      </div>
+    </div>
+	  <!-- SHIPPING DETAILS -->
+    <div class="page three">
+      <div class="progress-checkout-container">
+        <div class="progress-step-container3">
+          <div class="step-check"></div>
+          <span class="step-title">Payment</span> </div>
+        <div class="progress-step-container3">
+          <div class="step-check"></div>
+          <span class="step-title">Shipping</span> </div>
+        <div class="progress-step-container3">
+          <div class="step-check"></div>
+          <span class="step-title">Review</span> </div>
+      </div>
+		<div class="checkout-form-container">
+        <h2 class="checkout-form-title">Thank You For Shopping With us !</h2>
+        <form action="" class="checkout-form">
+          <div class="checkout-input-container">
+            <div class="checkout-input-line">
+              <label for="date">First Address</label>
+              <input type="text"  name="date" class="checkout-input" id="first-address" placeholder="Your First Address">
+            </div>
+            <div class="checkout-input-line">
+              <label for="date">Second Address</label>
+              <input type="text" name="cvc" class="checkout-input" id="second-address" placeholder="Your Second Address">
+            </div>
+          </div>
+          <div class="checkout-input-line">
+            <label for="name">Postal Code</label>
+            <input type="text" name="name" class="checkout-input" id="postal-code" placeholder="Your Postal Code">
+          </div>
+          <div class="checkout-input-line">
+            <label for="card">Country / City</label>
+            <input type="text" name="card" class="checkout-input" id="country" placeholder="Residential Country">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
 </div>
+
 <!-- FOOTER CONTENTS -->
 <footer>
   <div class="waves">
@@ -105,6 +194,8 @@
 </footer>
 <!-- IONICONS SCRIPT --> 
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> 
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
+<!-- JAVASCRIPT --> 
+<script src="javascript/checkout.js"></script>
 </body>
 </html>
