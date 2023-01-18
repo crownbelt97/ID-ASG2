@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SneakySneaker</title>
+<!-- CSS -->
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<!-- JAVASCRIPT --> 
+<script src="javascript/nav.js" defer></script> 
+<!-- FONT AWESOME --> 
+<script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymouse"></script> 
+<!-- LOTTIE --> 
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+
+<body>
+<!-- NAVIGATION BAR -->
+<header class="primary-header flex">
+  <div><a href="index.html">
+    <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_bivaxhip.json"  background="transparent"  speed="1" loop autoplay class="logo"></lottie-player>
+    </a></div>
+  <!-- insert logo here later on --> 
+  
+  <!-- HAMBURGER MENU -->
+  <div class="hamburger">
+    <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"><span class="sr-only"></span></button>
+  </div>
+  <nav>
+    <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+      <li class="nav-active"> <a href="index.html"><span aria-hidden="true"></span>Home</a> </li>
+      <li class="nav-active"> <a href=".."><span aria-hidden="true"></span> Products </a> </li>
+      <li class="nav-active"> <a href="about.html"><span aria-hidden="true"></span> About</a> </li>
+      <li class="nav-active"> <a href=".."><span aria-hidden="true"></span> Stores </a> </li>
+      <li class="nav-active"> <a href="account.html" style="color:#3586ff;"><span aria-hidden="true"></span><i class="fa fa-user"></i> </a> </li>
+      <li class="nav-active"> <a href="cart.html"><span aria-hidden="true"></span> <i class="fa fa-shopping-cart"></i></a> </li>
+    </ul>
+  </nav>
+</header>
+<!-- CHECKOUT PAGE CONTENTS -->
+<div class="progress-checkout-container">
+  <div class="progress-step-container">
+    <div class="step-check"></div>
+    <span class="step-title">Shipping</span> </div>
+  <div class="progress-step-container">
+    <div class="step-check"></div>
+    <span class="step-title">Payment</span> </div>
+  <div class="progress-step-container">
+    <div class="step-check"></div>
+    <span class="step-title">Review</span> </div>
+</div>
+<div class="checkout-form-container">
+  <h2 class="checkout-form-title">Payment Details</h2>
+  <form action="" class="checkout-form">
+    <div class="checkout-input-line">
+      <label for="name">Name on card</label>
+      <input type="text" name="name" class="checkout-input" id="name" placeholder="Your name and surname">
+    </div>
+    <div class="checkout-input-line">
+      <label for="card">Card number</label>
+      <input type="text" name="card" class="checkout-input" id="card" placeholder="1111-2222-3333-4444">
+    </div>
+    <div class="checkout-input-container">
+      <div class="checkout-input-line">
+        <label for="date">Expiring Date</label>
+        <input type="text"  name="date" class="checkout-input" id="date" placeholder="09-21">
+      </div>
+      <div class="checkout-input-line">
+        <label for="date">CVC</label>
+        <input type="text" name="cvc" class="checkout-input" id="cvc" placeholder="***">
+      </div>
+    </div>
+	  <input type="button" class="checkout-btn" value="Complete Purchase">
+  </form>
+</div>
+<!-- FOOTER CONTENTS -->
+<footer>
+  <div class="waves">
+    <div class="wave" id="wave1"></div>
+    <div class="wave" id="wave2"></div>
+    <div class="wave" id="wave3"></div>
+    <div class="wave" id="wave4"></div>
+  </div>
+  <ul class="social_icon">
+    <li><a href="#">
+      <ion-icon name="logo-facebook"></ion-icon>
+      </a></li>
+    <li><a href="#">
+      <ion-icon name="logo-instagram"></ion-icon>
+      </a></li>
+    <li><a href="#">
+      <ion-icon name="logo-google"></ion-icon>
+      </a></li>
+    <li><a href="#">
+      <ion-icon name="logo-linkedin"></ion-icon>
+      </a></li>
+  </ul>
+  <ul class="footer-menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#">Products</a></li>
+    <li><a href="about.html">About us</a></li>
+    <li><a href="#">Stores</a></li>
+  </ul>
+  <p>&copy; 2023 SneakySneakers | All Rights Reserved &#174;</p>
+</footer>
+<!-- IONICONS SCRIPT --> 
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> 
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
