@@ -705,6 +705,7 @@ td:last-child {
     margin-bottom: 2.5rem;
     font-weight: 500;
     opacity: 0.8;
+	
 }
 
 .checkout-form {
@@ -1026,8 +1027,8 @@ footer .wave#wave4 {
     width: 42px;
     border: 0;
     aspect-ratio: 1;
-	margin-top: -10px;
-    margin-left: 25%;
+	margin-top: -19px;
+    margin-left: 20%;
   }
   /* CLOSE HAMBURGER MENU ICON */
   .mobile-nav-toggle[aria-expanded="true"] {
@@ -1054,4 +1055,14 @@ footer .wave#wave4 {
     bottom: 28%;
     left: 50%;
   }
+	/* CHECK OUT PAGE */
+	.progress-checkout-container {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 50px auto auto auto;
+}
 }
