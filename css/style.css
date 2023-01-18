@@ -43,8 +43,8 @@
 .logo {
   width: 100px;
   height: 100px;
+  margin: 1rem;
 }
-
 .primary-navigation a > [aria-hidden="true"] {
   font-weight: 700;
   margin-inline-end: 0.75rem;
@@ -873,7 +873,8 @@ footer .wave#wave4 {
     width: 42px;
     border: 0;
     aspect-ratio: 1;
-    margin-left: 35%;
+	margin-top: -10px;
+    margin-left: 25%;
   }
   /* CLOSE HAMBURGER MENU ICON */
   .mobile-nav-toggle[aria-expanded="true"] {
