@@ -142,7 +142,7 @@
   opacity: 1;
 }
 .card-btn:hover {
-  background: #ff7d7d;
+  background: #5995fd;
   color: #fff;
 }
 .product-info {
@@ -642,7 +642,7 @@ td:last-child {
   justify-content: center;
   flex-direction: column;
 	gap: 100px;
-  transition: all 0.7s;
+  transition: all 1.5s;
   color: white;
 }
 
