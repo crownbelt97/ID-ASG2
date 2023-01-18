@@ -413,8 +413,11 @@
 }
 
 .shopProducts .shopCard:hover {
-  transform: translateY(-.5rem);
-	
+  transform: translateY(-1rem);
+	transition: .3s;
+}
+.shopProducts .shopCard {
+  transition: .3s ease-in-out;
 }
 
 .shopCard {
