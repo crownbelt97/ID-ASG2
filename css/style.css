@@ -1129,7 +1129,7 @@ footer .wave#wave4 {
     padding: 1.5rem;
   }
   .accounts-container:before {
-    bottom: 72%;
+    bottom: 65%;
     left: 50%;
   }
   .accounts-container.sign-up-mode:before {
@@ -1146,4 +1146,8 @@ footer .wave#wave4 {
 	margin-right: auto;
 	margin: 50px auto 0 auto;
 }
+	/* FOOTER */
+	footer{
+		margin-top: 30px;
+	}
 }
