@@ -307,7 +307,7 @@
 .about_info {
   margin-top: 10px;
   font-size: 30px;
-  margin-bottom: 12%;
+
   z-index: -1;
 }
 .about_grid {
@@ -362,7 +362,7 @@
 }
 
 .fa-arrow-right {
-  color: white;
+  color: black;
 }
 
   
