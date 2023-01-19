@@ -290,7 +290,7 @@
 }
 .about_text h1 {
   font-size: 50px;
-  margin-bottom: 20px;
+ margin-bottom: 20px;
   text-transform: capitalize;
 }
 .about_text p {
@@ -332,6 +332,34 @@
   font-size: 16px;
   text-align: center;
 }
+
+.about_process {
+  background-color: beige;
+  padding: 3% auto 3% auto;
+}
+
+.about_steps {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 2%;
+  padding: 3% 5% 3% 5%;
+  align-items: center;
+}
+.about_column {
+  width: 200px;
+  height: auto;
+  padding: 5px;
+  padding-bottom: 2%;
+  margin: 0 auto 20px auto;
+  align-items: center;
+  text-align: center;
+}
+
+.fa-arrow-right {
+  color: white;
+}
+
+  
 /*------------------------------------ PRODUCT PAGE -----------------------------------------------*/
 .companyname {
   color: white;
