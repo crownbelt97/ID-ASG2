@@ -76,7 +76,7 @@
   object-fit: cover;
 }
 #carouselExampleAutoplaying {
-  margin: auto;
+  margin: auto 0;
 }
 /*------------------------------------ PRODUCT SLIDER -----------------------------------------------*/
 .product {
