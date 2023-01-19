@@ -64,13 +64,19 @@
 .card img {
   transition: .4s ease-in-out;
 }
+
+.featured {
+  background-color: skyblue;
+  padding-top: 3% ;
+  padding-bottom: 3%;
+}
 /*------------------------------------CAROUSEL-----------------------------------------------*/
 .carousel-inner img {
-  height: 600px;
+  height: 900px;
   object-fit: cover;
 }
 #carouselExampleAutoplaying {
-  margin: auto auto 50px auto;
+  margin: auto;
 }
 /*------------------------------------ PRODUCT SLIDER -----------------------------------------------*/
 .product {
