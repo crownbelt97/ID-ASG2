@@ -5,6 +5,7 @@
 SneakySneakers is a fictional sneaker retailer that sells limited edition sneakers at competitive prices. We aim to provide customers with only 100% authentic sneakers for the community and supports the local sneaker community. 
 SneakySneakers is an idea from Ye Xuan's personal carousell sneaker reselling account SneakySnickers. This idea is 100% original by Ye Xuan Chua and Jeremy Chan.
 
+
 ## Wireframe
  1. Home Page
  - Header 
