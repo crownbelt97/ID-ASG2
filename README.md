@@ -7,7 +7,7 @@ SneakySneakers is an idea from Ye Xuan's personal carousell sneaker reselling ac
 
 
 ## Wireframe
- 1. Home Page
+1. Home Page
  - Header 
  - Showcase Sneaker/Promotions
  - Product types
@@ -15,43 +15,43 @@ SneakySneakers is an idea from Ye Xuan's personal carousell sneaker reselling ac
  - Best Selling Sneakers
  - Footer
  
- 2. Product Page
+2. Product Page
  - Header 
  - 9 total products (Product Image, Product Description, Product Price)
  - Footer
  
- 3. Specific Product Page
+3. Specific Product Page
  - Header 
  - Product Type
  - Product Image
  - Product Description
  - Footer
  
- 4. About Page
+4. About Page
  - Header
  - Company Mission
  - Company Features
  - Key Stand Out Feature
  - Footer
  
- 5. Enquiries/FAQ 
+5. Enquiries/FAQ 
  - Header 
  - Footer
  
- 6. Login/Sign Up
+6. Login/Sign Up
  - Header 
  - Login for Exsisting Users (Username/Password)
  - Sign Up for new users (Username/Email/Password)
  - Footer
  
- 7. Shopping Cart
+7. Shopping Cart
  - Header 
  - Product ID
  - Quantity 
  - Subtotal 
  - Footer
  
- 8. Checkout/Payment/Address/Confirmation
+8. Checkout/Payment/Address/Confirmation
  - Header 
  - Customer Address (Address, Postal Code, Country)
  - Payment Details (Name, Card Number, Expiry Date, CVC)
