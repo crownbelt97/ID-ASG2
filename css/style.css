@@ -64,10 +64,9 @@
 .card img {
   transition: .4s ease-in-out;
 }
-
 .featured {
   background-color: skyblue;
-  padding-top: 3% ;
+  padding-top: 3%;
   padding-bottom: 3%;
 }
 /*------------------------------------CAROUSEL-----------------------------------------------*/
@@ -234,7 +233,7 @@
 .about {
   width: 100%;
   height: 100vh;
-  background-color: #383838;
+  background-color: #5995FD;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -296,7 +295,7 @@
 }
 .about_text h1 {
   font-size: 50px;
- margin-bottom: 20px;
+  margin-bottom: 20px;
   text-transform: capitalize;
 }
 .about_text p {
@@ -307,7 +306,6 @@
 .about_info {
   margin-top: 10px;
   font-size: 30px;
-
   z-index: -1;
 }
 .about_grid {
@@ -338,12 +336,13 @@
   font-size: 16px;
   text-align: center;
 }
-
 .about_process {
-  background-color: beige;
+  background-color: #5995FD;
   padding: 3% auto 3% auto;
 }
-
+.about_process p, .about_process h1 {
+  color: white;
+}
 .about_steps {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -360,12 +359,9 @@
   align-items: center;
   text-align: center;
 }
-
 .fa-arrow-right {
   color: black;
 }
-
-  
 /*------------------------------------ PRODUCT PAGE -----------------------------------------------*/
 .companyname {
   color: white;

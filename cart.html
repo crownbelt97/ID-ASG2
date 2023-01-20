@@ -6,8 +6,8 @@
 <title>SneakySneaker</title>
 <!-- CSS -->
 <link href="css/style.css" rel="stylesheet" type="text/css">
-	<!-- GOOGLE FONT -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
+<!-- GOOGLE FONT -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 <!-- JAVASCRIPT --> 
@@ -36,12 +36,12 @@
   </div>
   <nav>
     <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
-      <li class="nav-active"> <a href="index.html" style="color:#3586ff;"><span aria-hidden="true"></span>Home</a> </li>
+      <li class="nav-active"> <a href="index.html"><span aria-hidden="true"></span>Home</a> </li>
       <li class="nav-active"> <a href="product.html"><span aria-hidden="true"></span> Products </a> </li>
       <li class="nav-active"> <a href="about.html"><span aria-hidden="true"></span> About </a> </li>
       <li class="nav-active"> <a href="#"><span aria-hidden="true"></span> Stores </a> </li>
       <li class="nav-active"> <a href="account.html"><span aria-hidden="true"></span><i class="fa fa-user"></i> </a> </li>
-      <li class="nav-active"> <a href="cart.html"><span aria-hidden="true"></span> <i class="fa fa-shopping-cart"></i></a> </li>
+      <li class="nav-active"> <a href="cart.html" style="color:#3586ff;"><span aria-hidden="true"></span> <i class="fa fa-shopping-cart"></i></a> </li>
     </ul>
   </nav>
 </header>
@@ -54,67 +54,55 @@
       <th>Subtotal</th>
     </tr>
     <tr>
-      <td>
-		<div class="cart-info">
-		  <img src="Resources/jordan-1-icon.png" alt="">
-			<div>
-			<p>Nike Air Jordan</p>
-				<small>Price $129.00</small><br>
-				<a href="#">Remove</a>
-			</div>
-		  </div>
-		</td>
-		<td><input type="number" value="1"></td>
-		<td>$129.00</td>
+      <td><div class="cart-info"> <img src="Resources/jordan-1-icon.png" alt="">
+          <div>
+            <p>Nike Air Jordan</p>
+            <small>Price $129.00</small><br>
+            <a href="#">Remove</a> </div>
+        </div></td>
+      <td><input type="number" value="1"></td>
+      <td>$129.00</td>
     </tr>
-	  <tr>
-      <td>
-		<div class="cart-info">
-		  <img src="Resources/jordan-1-icon.png" alt="">
-			<div>
-			<p>Nike Air Jordan</p>
-				<small>Price $129.00</small><br>
-				<a href="#">Remove</a>
-			</div>
-		  </div>
-		</td>
-		<td><input type="number" value="2"></td>
-		<td>$258.00</td>
+    <tr>
+      <td><div class="cart-info"> <img src="Resources/jordan-1-icon.png" alt="">
+          <div>
+            <p>Nike Air Jordan</p>
+            <small>Price $129.00</small><br>
+            <a href="#">Remove</a> </div>
+        </div></td>
+      <td><input type="number" value="2"></td>
+      <td>$258.00</td>
     </tr>
-	  <tr>
-      <td>
-		<div class="cart-info">
-		  <img src="Resources/jordan-1-icon.png" alt="">
-			<div>
-			<p>Nike Air Jordan</p>
-				<small>Price $129.00</small><br>
-				<a href="#">Remove</a>
-			</div>
-		  </div>
-		</td>
-		<td><input type="number" value="1"></td>
-		<td>$129.00</td>
+    <tr>
+      <td><div class="cart-info"> <img src="Resources/jordan-1-icon.png" alt="">
+          <div>
+            <p>Nike Air Jordan</p>
+            <small>Price $129.00</small><br>
+            <a href="#">Remove</a> </div>
+        </div></td>
+      <td><input type="number" value="1"></td>
+      <td>$129.00</td>
     </tr>
   </table>
-	
-	<div class="total-price">
-	<table>
-		<tr>
-		<td> Subtotal</td>
-			<td> $200.00</td>
-		</tr>
-		<tr>
-		<td> Tax</td>
-			<td> $35.00</td>
-		</tr>
-		<tr>
-		<td> Total</td>
-			<td> $230.00</td>
-		</tr>
-		</table>
-	</div>
-	<a href="checkout.html"><input type="button" class="cart-button" value="CHECK OUT"></a>
-</div>
+  <div class="total-price">
+    <table>
+      <tr>
+        <td> Subtotal</td>
+        <td> $200.00</td>
+      </tr>
+      <tr>
+        <td> Tax</td>
+        <td> $35.00</td>
+      </tr>
+      <tr>
+        <td> Total</td>
+        <td> $230.00</td>
+      </tr>
+    </table>
+  </div>
+  <a href="checkout.html">
+  <input type="button" class="cart-button" value="CHECK OUT">
+  </a> </div>
 <!-- FOOTER CONTENTS -->
 <footer>
   <div class="waves">
@@ -140,7 +128,7 @@
   <ul class="footer-menu">
     <li><a href="index.html">Home</a></li>
     <li><a href="#">Products</a></li>
-    <li><a href="about.html">About us</a></li>
+    <li><a href="about.html">About</a></li>
     <li><a href="#">Stores</a></li>
   </ul>
   <p>&copy; 2023 SneakySneakers | All Rights Reserved &#174;</p>
