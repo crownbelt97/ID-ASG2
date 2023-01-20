@@ -3,26 +3,61 @@
 # SneakySneakers
 ## Background Information
 SneakySneakers is a fictional sneaker retailer that sells limited edition sneakers at competitive prices. We aim to provide customers with only 100% authentic sneakers for the community and supports the local sneaker community. 
-SneakySneakers is an idea from Ye Xuan's personal carousell sneaker reselling account SneakySnickers. This idea is 100% original by Ye Xuan Chua.
+SneakySneakers is an idea from Ye Xuan's personal carousell sneaker reselling account SneakySnickers. This idea is 100% original by Ye Xuan Chua and Jeremy Chan.
 
 ## Wireframe
  1. Home Page
+ - Header 
+ - Showcase Sneaker/Promotions
+ - Product types
+ - Promotional Video
+ - Best Selling Sneakers
+ - Footer
  2. Product Page
+ - Header 
+ - 9 total products (Product Image, Product Description, Product Price)
+ - Footer
  3. Specific Product Page
+ - Header 
+ - Product Type
+ - Product Image
+ - Product Description
+ - Footer
  4. About Page
- 5. Enquiries/FAQ
+ - Header
+ - Company Mission
+ - Company Features
+ - Key Stand Out Feature
+ - Footer
+ 5. Enquiries/FAQ 
+ - Header 
+ - Footer
  6. Login/Sign Up
+ - Header 
+ - Login for Exsisting Users (Username/Password)
+ - Sign Up for new users (Username/Email/Password)
+ - Footer
  7. Shopping Cart
+ - Header 
+ - Product ID
+ - Quantity 
+ - Subtotal 
+ - Footer
  8. Checkout/Payment/Address/Confirmation
+ - Header 
+ - Customer Address (Address, Postal Code, Country)
+ - Payment Details (Name, Card Number, Expiry Date, CVC)
+ - Order Confirmation
+ - Footer
  
 ### Colour Scheme
-- 
+- White #0000
+- Blue
 
 
 ### Typography
 - Google Fonts: Roboto
 
-## Products
 ## Products
 1. Jordan 1 High OG Patent Bred
 2. Jordan 1 High OG Chicago
@@ -43,3 +78,5 @@ SneakySneakers is an idea from Ye Xuan's personal carousell sneaker reselling ac
 5. Adobe Photoshop
 6. Bootstrap
 7. Adobe Premiere Rush
+8. Lottie
+9. MapBox API
