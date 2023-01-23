@@ -65,7 +65,6 @@
   transition: .4s ease-in-out;
 }
 .featured {
-  background-color: skyblue;
   padding-top: 3%;
   padding-bottom: 3%;
 }
@@ -229,139 +228,67 @@
   grid-column: span 2;
   margin-bottom: 10px;
 }
-/*------------------------------------ABOUT_PAGE-----------------------------------------------*/
-.about {
-  width: 100%;
-  height: 100vh;
-  background-color: #5995FD;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+/*------------------------------------ABOUT PAGE-----------------------------------------------*/
+.row {
+	font-size: 24px;
 }
-.about_content {
-  width: 1280px;
-  max-width: 95%;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
+
+/*------------------------------------FAQ PAGE-----------------------------------------------*/
+
+.faq-title{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
-.about .about_content img {
-  height: auto;
-  width: 600px;
-  max-width: 100%;
+
+
+.questions-container{
+    max-width: 800px;
+    margin: 0 auto;
 }
-.about_text {
-  width: 550px;
-  max-width: 100%;
-  padding: 0 10px;
-  color: white;
-  margin-left: 2%;
+
+.question{
+    border-bottom: 1px solid black;
 }
-.about_text button {
-  background-color: #3586ff;
-  border: 1px solid transparent;
-  border-radius: 5px;
-  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.15385;
-  margin: 0;
-  outline: none;
-  padding: 8px .8em;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: baseline;
-  white-space: nowrap;
+.question button{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    border:none;
+    outline: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
 }
-.about_text button:hover, .about_text button:focus {
-  background-color: #07c;
+.question p{
+    font-size: 22px;
+    max-height: 0;
+    opacity: 0;
+    line-height: 1.5;
+    overflow: hidden;
+    transition: all 0.6s ease;
 }
-.about_text button:focus {
-  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+.d-arrow{
+    transition: transform 0.5s ease-in ;
+    color: #fff;
 }
-.about_text button:active {
-  background-color: #0064bd;
-  box-shadow: none;
+
+/*add this class when click*/
+.question p.show{
+    max-height: 200px; 
+    opacity: 1;
+    padding:0px 15px 30px 15px;
 }
-.about_text h1 {
-  font-size: 50px;
-  margin-bottom: 20px;
-  text-transform: capitalize;
+.question button .d-arrow.rotate{
+    transform: rotate(180deg);
 }
-.about_text p {
-  font-size: 25px;
-  margin-bottom: 3%;
-  margin-bottom: 5%;
-}
-.about_info {
-  margin-top: 10px;
-  font-size: 30px;
-  z-index: -1;
-}
-.about_grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 2%;
-  padding: 3% 5% 3% 5%;
-  align-items: center;
-}
-.about_card {
-  width: 400px;
-  height: 100%;
-  padding: 5px;
-  padding-bottom: 2%;
-  margin: 0 auto 20px auto;
-  align-items: center;
-  text-align: center;
-}
-.about_icon {
-  padding: 3% 2%;
-}
-.about_title {
-  font-size: 24px;
-  margin: 0px 0px 14px;
-  text-align: center;
-}
-.about_desc {
-  font-size: 16px;
-  text-align: center;
-}
-.about_process {
-  background-color: #5995FD;
-  padding: 3% auto 3% auto;
-}
-.about_process p, .about_process h1 {
-  color: white;
-}
-.about_steps {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 2%;
-  padding: 3% 5% 3% 5%;
-  align-items: center;
-}
-.about_column {
-  width: 200px;
-  height: auto;
-  padding: 5px;
-  padding-bottom: 2%;
-  margin: 0 auto 20px auto;
-  align-items: center;
-  text-align: center;
-}
-.fa-arrow-right {
-  color: black;
-}
+
 /*------------------------------------ PRODUCT PAGE -----------------------------------------------*/
 .companyname {
   color: white;

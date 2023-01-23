@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SneakySneaker</title>
+<!-- CSS -->
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<!-- GOOGLE FONT -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<!-- JAVASCRIPT --> 
+<script src="javascript/nav.js" defer></script> 
+<!-- FONT AWESOME --> 
+<script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymouse"></script>
+<link rel="stylesheet" type="text/css"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+<!-- BOOTSTRAP -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<!-- LOTTIE --> 
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+
+<body>
+<!-- NAVIGATION BAR -->
+<header class="primary-header flex">
+  <div><a href="index.html">
+    <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_bivaxhip.json"  background="transparent"  speed="1" loop autoplay class="logo"></lottie-player>
+    </a></div>
+  <!-- insert logo here later on --> 
+  
+  <!-- HAMBURGER MENU -->
+  <div class="hamburger">
+    <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"><span class="sr-only"></span></button>
+  </div>
+  <nav>
+    <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+      <li class="nav-active"> <a href="index.html"><span aria-hidden="true"></span>Home</a> </li>
+      <li class="nav-active"> <a href="product.html"><span aria-hidden="true"></span> Products </a> </li>
+      <li class="nav-active"> <a href="about.html" style="color:#3586ff;"><span aria-hidden="true"></span> About </a> </li>
+      <li class="nav-active"> <a href="#"><span aria-hidden="true"></span> Stores </a> </li>
+      <li class="nav-active"> <a href="account.html"><span aria-hidden="true"></span><i class="fa fa-user"></i> </a> </li>
+      <li class="nav-active"> <a href="cart.html"><span aria-hidden="true"></span> <i class="fa fa-shopping-cart"></i></a> </li>
+    </ul>
+  </nav>
+</header>
+
+	<!-- FAQ -->
+	
+<section class="faq-section">
+    <h1 class="faq-title">FAQs</h1>
+
+    <div class="questions-container">
+        <div class="question">
+            <button>
+                <span>What is SneakySneakers ?</span>
+                <i class="fas fa-chevron-down d-arrow" style="color: black;"></i>
+            </button>
+            <p>SneakySneaker ..........................</p>
+        </div>
+
+        <div class="question">
+            <button>
+                <span>How many Physical Stores are there ?</span>
+                <i class="fas fa-chevron-down d-arrow" style="color: black;"></i>
+            </button>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi laboriosam ea odit voluptate culpa quas explicabo.</p>
+        </div>
+
+        <div class="question">
+            <button>
+                <span>Aside from Air Jordan and Nike Dunk, are you planning to add more Products?</span>
+                <i class="fas fa-chevron-down d-arrow" style="color: black;"></i>
+            </button>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi laboriosam ea odit voluptate culpa quas explicabo.</p>
+        </div>
+
+        <div class="question">
+            <button>
+                <span>How do I upgrade my membership status from X to Y ?</span>
+                <i class="fas fa-chevron-down d-arrow" style="color: black;"></i>
+            </button>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus corporis pariatur a maiores minus tempore magni nam beatae dolores omnis.</p>
+        </div>
+    </div>
+</section>
+	
+	
+	
+	
+<!-- FOOTER CONTENTS -->
+<footer>
+  <div class="waves">
+    <div class="wave" id="wave1"></div>
+    <div class="wave" id="wave2"></div>
+    <div class="wave" id="wave3"></div>
+    <div class="wave" id="wave4"></div>
+  </div>
+  <ul class="social_icon">
+    <li><a href="#">
+      <ion-icon name="logo-facebook"></ion-icon>
+      </a></li>
+    <li><a href="#">
+      <ion-icon name="logo-instagram"></ion-icon>
+      </a></li>
+    <li><a href="#">
+      <ion-icon name="logo-google"></ion-icon>
+      </a></li>
+    <li><a href="#">
+      <ion-icon name="logo-linkedin"></ion-icon>
+      </a></li>
+  </ul>
+  <ul class="footer-menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#">Products</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="#">Stores</a></li>
+  </ul>
+  <p>&copy; 2023 SneakySneakers | All Rights Reserved &#174;</p>
+</footer>
+<!-- IONICONS SCRIPT --> 
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> 
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<script src="javascript/FAQ.js"></script>
+</body>
+</html>
