@@ -413,11 +413,13 @@ li {
   list-style: none;
 }
 .store-body {
+	margin-top: -70px;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   padding: 1rem;
+	margin-bottom: 60px;
 }
 .store-container {
   border: 3px solid #5995FD;
