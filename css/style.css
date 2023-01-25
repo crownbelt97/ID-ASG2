@@ -462,6 +462,7 @@ li {
 .store-content li.active {
   display: block;
 }
+
 .store-content li h1 {
   font-size: 1.5rem;
   font-weight: 600;
@@ -474,12 +475,12 @@ li {
   font-size: .875rem;
 }
 #map {
-  width: 400px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
 }
 #map2 {
-  width: 400px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
 }
 /*------------------------------------------ ACCOUNTS PAGE ------------------------------------------ */
 .accounts-container {
