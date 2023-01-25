@@ -1,7 +1,7 @@
 // JavaScript Document
 
-const allIndicator = document.querySelectorAll('.indicator li');
-const allContent = document.querySelectorAll('.content li');
+const allIndicator = document.querySelectorAll('.store-indicator li');
+const allContent = document.querySelectorAll('.store-content li');
 
 allIndicator.forEach(item=> {
   item.addEventListener('click', function () {

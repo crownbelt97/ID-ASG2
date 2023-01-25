@@ -228,86 +228,75 @@
   grid-column: span 2;
   margin-bottom: 10px;
 }
-
 /*------------------------------------ABOUT PAGE-----------------------------------------------*/
 .row {
-	font-size: 24px;
-	width: 100%;
-	margin-left: 0px;
-	margin-right: 0px;
+  font-size: 24px;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
 }
-
 .container.text-center.mt-6 {
-	display: none;
+  display: none;
 }
-
 .container-fluid.text-center.mt-6 {
-	display: none;
+  display: none;
 }
-
 .b-example-divider {
-        height: 2rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-      }
-
+  height: 2rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
 /*------------------------------------FAQ PAGE-----------------------------------------------*/
-
-.faq-title{
-    font-size: 50px;
-    text-align: center;
-    margin-top: 80px;
-    margin-bottom: 40px;
+.faq-title {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
 }
-
-
-.questions-container{
-    max-width: 800px;
-    margin: 0 auto;
+.questions-container {
+  max-width: 800px;
+  margin: 0 auto;
 }
-
-.question{
-    border-bottom: 1px solid black;
+.question {
+  border-bottom: 1px solid black;
 }
-.question button{
-    width: 100%;
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 15px;
-    border:none;
-    outline: none;
-    font-size: 20px;
-    color: black;
-    font-weight: 700;
-    cursor: pointer;
+.question button {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
 }
-.question p{
-    font-size: 22px;
-    max-height: 0;
-    opacity: 0;
-    line-height: 1.5;
-    overflow: hidden;
-    transition: all 0.6s ease;
+.question p {
+  font-size: 22px;
+  max-height: 0;
+  opacity: 0;
+  line-height: 1.5;
+  overflow: hidden;
+  transition: all 0.6s ease;
 }
-.d-arrow{
-    transition: transform 0.5s ease-in ;
-    color: #fff;
+.d-arrow {
+  transition: transform 0.5s ease-in;
+  color: #fff;
 }
-
 /*add this class when click*/
-.question p.show{
-    max-height: 200px; 
-    opacity: 1;
-    padding:0px 15px 30px 15px;
+.question p.show {
+  max-height: 200px;
+  opacity: 1;
+  padding: 0px 15px 30px 15px;
 }
-.question button .d-arrow.rotate{
-    transform: rotate(180deg);
+.question button .d-arrow.rotate {
+  transform: rotate(180deg);
 }
-
 /*------------------------------------ PRODUCT PAGE -----------------------------------------------*/
 .companyname {
   color: white;
@@ -419,85 +408,78 @@
   font-size: 20px;
   font-weight: bold;
 }
-
 /*------------------------------------ STORE PAGE-----------------------------------------------*/
 li {
-	list-style: none;
+  list-style: none;
 }
 .store-body {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
 }
-.container {
-	max-width: 600px;
-	width: 100%;
-	border: 1px solid #5995FD;
-	border-radius: 10px;
-	box-shadow: 0 8px 24px rgba(0, 0, 0, .05);
+.store-container {
+  border: 3px solid #5995FD;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .3);
 }
-
 .wrapper {
-	display: flex;
+  display: flex;
 }
-
-.indicator {
-	padding: 1.5rem 0;
-	border-right: 1px solid grey;
+.store-indicator {
+  padding: 1.5rem 0;
+  border-right: 1px solid white;
 }
-
-.indicator li {
-	display: flex;
-	align-items: center;
-	grid-gap: .5rem;
-	padding: 10px 2rem;
-	cursor: pointer;
-	font-size: .875rem;
-	color: black;
-	border-right: 3px solid transparent;
+.store-indicator li {
+  display: flex;
+  align-items: center;
+  grid-gap: .5rem;
+  padding: 10px 2rem;
+  cursor: pointer;
+  font-size: .875rem;
+  color: black;
+  border-right: 3px solid transparent;
 }
-
-.indicator li i {
-	font-size: 1rem;
+.store-indicator li i {
+  font-size: 1rem;
 }
-
-.indicator li:hover {
-	background: #4d84e2;
+.store-indicator li:hover {
+  background: #5995FD;
+  color: white;
 }
-
-.indicator li.active {
-	border-right-color: #5995FD;
-	color: #5995FD;
-	background: white;
+.store-indicator li.active {
+  border-right-color: #5995FD;
+  color: #5995FD;
+  background: white;
 }
-
-.content {
-	padding: 1.5rem 2rem;
+.store-content {
+  padding: 1.5rem 2rem;
 }
-.content li {
-	display: none;
+.store-content li {
+  display: none;
 }
-.content li.active {
-	display: block;
+.store-content li.active {
+  display: block;
 }
-.content li h1 {
-	font-size: 1.5rem;
-	font-weight: 600;
-	color: black;
-	margin-bottom: .75rem;
+.store-content li h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+  margin-bottom: .75rem;
 }
-.content li p {
-	margin-bottom: .5rem;
-	color: purple;
-	font-size: .875rem;
+.store-content li p {
+  margin-bottom: .5rem;
+  color: black;
+  font-size: .875rem;
 }
-#map { 
-	margin-left: auto;
-	margin-right: auto;
-	width: 400px; 
-	height: 400px; 
+#map {
+  width: 400px;
+  height: 300px;
+}
+#map2 {
+  width: 400px;
+  height: 300px;
 }
 /*------------------------------------------ ACCOUNTS PAGE ------------------------------------------ */
 .accounts-container {
@@ -1087,42 +1069,41 @@ footer .wave#wave4 {
 /*------------------------------------------ RESPONSIVE MEDIA VIEWS STARTS HERE ------------------------------------------ */
 @media (max-width: 870px) {
   /*--------------ABOUT-------------------*/
-  .fa-solid.fa-arrow-right{
-	transform: rotate(90deg);
-	  margin-top: 50px;
-	  margin-bottom: 50px;
-}
-	.container.text-center.mt-5 {
-		display: none;
-	}
-	.container.text-center.mt-6 {
-		display: unset;
-	}
-	.col-10.col-sm-8.col-lg-6 {
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.container-fluid.text-center.mt-5 {
-	display: none;
-}
-	.container-fluid.text-center.mt-6 {
-	display: unset;
-}
-	.row.flex-lg-row-reverse.align-items-center.g-5.py-5 {
-		margin-left: auto;
-		margin-right: auto;
-	}
-	
-	.row.flex-lg-row.align-items-center.g-5.py-5 {
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.row {
-	font-size: 24px;
-	width: 100%;
-	margin-left: 0px !important;
-	margin-right: 0px !important;
-}
+  .fa-solid.fa-arrow-right {
+    transform: rotate(90deg);
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .container.text-center.mt-5 {
+    display: none;
+  }
+  .container.text-center.mt-6 {
+    display: unset;
+  }
+  .col-10.col-sm-8.col-lg-6 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container-fluid.text-center.mt-5 {
+    display: none;
+  }
+  .container-fluid.text-center.mt-6 {
+    display: unset;
+  }
+  .row.flex-lg-row-reverse.align-items-center.g-5.py-5 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .row.flex-lg-row.align-items-center.g-5.py-5 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .row {
+    font-size: 24px;
+    width: 100%;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
   /*--------------ABOUT ENDS-------------------*/
   .accounts-container {
     min-height: 800px;
@@ -1204,7 +1185,6 @@ footer .wave#wave4 {
     top: 5%;
     transform: translate(-50%, 0);
   }
-
   /* CART PAGE */
   .cart-info p {
     display: none;
@@ -1240,6 +1220,21 @@ footer .wave#wave4 {
     padding: 20px;
     font-size: 30px;
     color: white;
+  }
+  /*-----------------STORE--------------------------*/
+  .wrapper {
+    flex-direction: column;
+  }
+  .store-indicator {
+    border-right: none;
+  }
+  #map {
+    width: auto;
+    height: 250px;
+  }
+  #map2 {
+    width: auto;
+    height: 250px;
   }
 }
 @media (min-width: 560px) and (max-width: 55em) {
