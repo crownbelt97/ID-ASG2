@@ -474,22 +474,23 @@ li {
   color: black;
   font-size: .875rem;
 }
+
 #map {
-  width: 700px;
+  width: 900px;
   height: 500px;
 }
 #map2 {
-	width: 700px;
+	width: 900px;
   height: 500px;
 }
 
 #map3 {
-  width: 700px;
+  width: 900px;
   height: 500px;
 }
 
 #map4 {
-  width: 700px;
+  width: 900px;
   height: 500px;
 }
 /*------------------------------------------ ACCOUNTS PAGE ------------------------------------------ */
