@@ -475,11 +475,21 @@ li {
   font-size: .875rem;
 }
 #map {
-  width: 500px;
+  width: 700px;
   height: 500px;
 }
 #map2 {
-  width: 500px;
+	width: 700px;
+  height: 500px;
+}
+
+#map3 {
+  width: 700px;
+  height: 500px;
+}
+
+#map4 {
+  width: 700px;
   height: 500px;
 }
 /*------------------------------------------ ACCOUNTS PAGE ------------------------------------------ */
@@ -1234,6 +1244,14 @@ footer .wave#wave4 {
     height: 250px;
   }
   #map2 {
+    width: auto;
+    height: 250px;
+  }
+	#map3 {
+    width: auto;
+    height: 250px;
+  }
+	#map4 {
     width: auto;
     height: 250px;
   }

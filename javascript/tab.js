@@ -18,5 +18,8 @@ allIndicator.forEach(item=> {
     content.classList.add('active');
     this.classList.add('active');
 	  map.resize();
+	  map2.resize();
+	  map3.resize();
+	  map4.resize();
   })
 })
