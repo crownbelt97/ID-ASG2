@@ -70,18 +70,20 @@ SneakySneakers is an idea from Ye Xuan's personal carousell sneaker reselling ac
 1. Navigation Bar
 	1. Lottie Animation
 	2. Font Awesome Icons
-2. Product Page
+2. Home Page
+	1. Bootstrap
+3. Product Page
 	1. Font Awesome Icons
-3. About Page
+4. About Page
 	1. Bootstrap
 	2. Font Awesome Icons
-4. Store Page
+5. Store Page
 	1. Mapbox
 	2. Bootstrap
 	3. Font Awesome Icons
-5. Account Page
+6. Account Page
 	1. Font Awesome Icons
-6. Footer	
+7. Footer	
 	1. Ionicons
 ## Products
 1. Jordan 1 High OG Patent Bred
