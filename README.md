@@ -66,7 +66,12 @@ SneakySneakers is an idea from Ye Xuan's personal carousell sneaker reselling ac
 - Blue #3586FF
 ## Typography
 - Google Fonts: Roboto
-
+## APIs
+1. Mapbox
+	1. t
+2. Lottie
+3. Bootstrap
+4. Font Awesome
 ## Products
 1. Jordan 1 High OG Patent Bred
 2. Jordan 1 High OG Chicago
