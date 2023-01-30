@@ -48,7 +48,7 @@ function ready() {
 // Buy Button
 function buyButtonClicked() {
   //alert("Your Order is placed");
-	location.href = "checkout.html"
+  location.href = "checkout.html"
   var cartContent = document.getElementsByClassName("cart-content")[0];
   while (cartContent.hasChildNodes()) {
     cartContent.removeChild(cartContent.firstChild);
@@ -80,6 +80,7 @@ function addCartClicked(event) {
   addProductToCart(title, price, productImg);
   updatetotal();
 }
+
 function addProductToCart(title, price, productImg) {
   var cartShopBox = document.createElement("div");
   cartShopBox.classList.add("cart-box");
@@ -125,13 +126,14 @@ function updatetotal() {
   }
   // If price Contain some Cents Value
   total = Math.round(total * 100) / 100;
-	if (total > 200){
-		final = total - 20;
-		document.getElementsByClassName("total-price")[0].innerText = "$" + final;
-		document.getElementsByClassName("sub-total-price")[0].innerText = "$" + total;
-		document.getElementsByClassName("discount")[0].innerText = "$20";
-	}
-	else {
-  document.getElementsByClassName("total-price")[0].innerText = "$" + total;
-		}
+  if (total > 200) {
+    final = total - 20;
+    document.getElementsByClassName("total-price")[0].innerText = "$" + final;
+    document.getElementsByClassName("sub-total-price")[0].innerText = "$" + total;
+    document.getElementsByClassName("discount")[0].innerText = "$20";
+  } else {
+    document.getElementsByClassName("sub-total-price")[0].innerText = "$" + total;
+    document.getElementsByClassName("total-price")[0].innerText = "$" + total;
+	  document.getElementsByClassName("discount")[0].innerText = "$0";
+  }
 }
