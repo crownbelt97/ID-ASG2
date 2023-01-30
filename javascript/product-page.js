@@ -126,7 +126,7 @@ function updatetotal() {
   }
   // If price Contain some Cents Value
   total = Math.round(total * 100) / 100;
-  if (total > 200) {
+  if (total >= 200) {
     final = total - 20;
     document.getElementsByClassName("total-price")[0].innerText = "$" + final;
     document.getElementsByClassName("sub-total-price")[0].innerText = "$" + total;
