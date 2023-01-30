@@ -521,13 +521,12 @@
   font-size: 20px;
   font-weight: bold;
 }
-/*------------------------------------ TEST PRODUCT PAGE -----------------------------------------------*/
+/*------------------------------------ TEST PRODUCT PAGE -----------------------------------------------*/ 
 :root {
   --main-color: #fd4646;
   --text-color: #5995FD;
   --bg-color: #fff;
 }
-
 .shop.container {
   padding: 4rem 0 3rem;
 }
@@ -562,11 +561,12 @@
   width: 360px;
   min-height: 100vh;
   padding: 20px;
-  background: var(--bg-color);
+  background: white;
   box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
-  transition: 0.3s;
-	z-index: 1000;
+  transition: 0.5s ease-in-out;
+  z-index: 99999;
 }
+
 .cart.active {
   right: 0;
 }
@@ -641,7 +641,7 @@
 }
 #close-cart {
   position: absolute;
-  top: 1rem;
+  top: 3rem;
   right: 0.8rem;
   font-size: 2rem;
   color: var(--text-color);
@@ -1603,8 +1603,8 @@ footer .wave#wave4 {
   .primary-navigation {
     --gap: 2em;
     position: fixed;
-    z-index: 1000;
-    inset: 0 0 0 30%;
+    z-index: 9;
+    inset: 0 0 0 15%;
     flex-direction: column;
     padding: min(30vh, 10rem) 2em;
     transform: translateX(100%);
@@ -1618,7 +1618,7 @@ footer .wave#wave4 {
   .mobile-nav-toggle {
     display: unset;
     position: absolute;
-    z-index: 99;
+    z-index: 10;
     background-image: url("../Resources/hamburger-menu.svg");
     background-color: transparent;
     background-repeat: no-repeat;
@@ -1627,10 +1627,10 @@ footer .wave#wave4 {
     aspect-ratio: 1;
     margin-top: -19px;
     margin-left: 20%;
-  }
+	}
   /* CLOSE HAMBURGER MENU ICON */
   .mobile-nav-toggle[aria-expanded="true"] {
-    background-image: url("../Resources/close-hamburger.svg")
+    background-image: url("../Resources/close-hamburger.svg");
   }
   /* ACCOUNTS PAGE */
   form {
@@ -1676,8 +1676,13 @@ footer .wave#wave4 {
     font-size: 1rem;
   }
   .cart {
-    width: 320px;
+    width: 330px;
   }
+	#close-cart {
+  top: 40px;
+  font-size: 3rem;
+  cursor: pointer;
+}
 }
 @media (max-width: 360px) {
   .shop {

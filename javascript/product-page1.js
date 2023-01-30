@@ -6,6 +6,7 @@ let closeCart = document.querySelector("#close-cart");
 cartIcon.onclick = () => {
   cart.classList.add("active");
 };
+
 // Close Cart
 closeCart.onclick = () => {
   cart.classList.remove("active");
