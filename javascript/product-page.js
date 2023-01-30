@@ -47,7 +47,8 @@ function ready() {
 }
 // Buy Button
 function buyButtonClicked() {
-  alert("Your Order is placed");
+  //alert("Your Order is placed");
+	location.href = "checkout.html"
   var cartContent = document.getElementsByClassName("cart-content")[0];
   while (cartContent.hasChildNodes()) {
     cartContent.removeChild(cartContent.firstChild);
@@ -86,7 +87,7 @@ function addProductToCart(title, price, productImg) {
   var cartItemsNames = cartItems.getElementsByClassName("cart-product-title");
   for (var i = 0; i < cartItemsNames.length; i++) {
     if (cartItemsNames[i].innerText == title) {
-      alert("You have already add this item to cart");
+      alert("You have already add this item to cart, please change the quantity in the cart menu");
       return;
     }
   }
@@ -124,6 +125,13 @@ function updatetotal() {
   }
   // If price Contain some Cents Value
   total = Math.round(total * 100) / 100;
-
+	if (total > 200){
+		final = total - 20;
+		document.getElementsByClassName("total-price")[0].innerText = "$" + final;
+		document.getElementsByClassName("sub-total-price")[0].innerText = "$" + total;
+		document.getElementsByClassName("discount")[0].innerText = "$20";
+	}
+	else {
   document.getElementsByClassName("total-price")[0].innerText = "$" + total;
+		}
 }
