@@ -541,7 +541,7 @@ li {
   list-style: none;
 }
 .store-body {
-	margin-top: -70px;
+	margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
