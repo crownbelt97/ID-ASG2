@@ -420,7 +420,7 @@
   --bg-color: #fff;
 }
 .shop.container {
-  padding: 4rem 0 3rem;
+  padding: 5rem 0 4rem;
 }
 .container {
   max-width: 1068px;
@@ -548,7 +548,7 @@
   cursor: pointer;
 }
 .section-title {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 600;
   text-align: center;
   margin-bottom: 3rem;
@@ -560,7 +560,7 @@
 .shop-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, auto));
-  gap: 1.5rem;
+  gap: 2rem;
 }
 .product-box {
   position: relative;
@@ -612,6 +612,127 @@
     margin-top: 2rem !important;
   }
 }
+
+/*--------Styles for popup view----------*/
+.popup-btn{
+  z-index: 0;
+  color: #fff;
+  background: #555;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 8px 13px;
+  border-radius: 20px;
+  margin-bottom: 25%;
+  cursor: pointer;
+}
+
+.popup-view{
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.popup-view.active{
+  opacity: 1;
+  visibility: visible;
+}
+
+.popup-card{
+  position: relative;
+  display: flex;
+  width: 800px;
+  height: 500px;
+  margin: 20px;
+}
+
+.product_img{
+  z-index: 2;
+  background: rgba(236,238,239,255);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 90%;
+  transform: translateY(25px);
+  border-top-left-radius: 10px; 
+  border-bottom-left-radius: 10px;
+
+}
+
+.product_img img{
+  z-index: 2;
+  position: relative;
+  width: 450px;
+  left: -50px;
+
+}
+
+.popup-card .product_info
+{
+  z-index: 2;
+  background: #1d212b;
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 40px;
+  border-radius: 10px;
+  color: #FFF;
+}
+
+.popup-card .close-btn{
+  color: #555;
+  z-index: 3;
+  position: absolute;
+  right: 0;
+  font-size: 20px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.popup-card .product-info h2{
+  margin: 10px;
+  font-size: 40px;
+  line-height: 20px;
+}
+
+.popup-card .product_info h2 span{
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.popup-card .product_info p{
+  font-size: 15px;
+  margin: 10px;
+}              
+
+.popup-card .product_info .popup_price {
+  font-size: 45px;
+  font-weight: 300;
+  margin: 10px;
+}
+
+
+
+
 /*------------------------------------ STORE PAGE-----------------------------------------------*/
 li {
   list-style: none;
@@ -700,226 +821,9 @@ li {
   height: 500px;
 }
 /*------------------------------------------ ACCOUNTS PAGE ------------------------------------------ */
-.accounts-container {
-  position: relative;
-  width: 100%;
-  background-color: #fff;
-  min-height: 100vh;
-  overflow: hidden;
-}
-.forms-container {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
-.signin-signup {
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  left: 75%;
-  width: 50%;
-  transition: 1s 0.7s ease-in-out;
-  display: grid;
-  grid-template-columns: 1fr;
-  z-index: 5;
-}
-.signin-signup form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 0rem 5rem;
-  transition: all 0.2s 0.7s;
-  overflow: hidden;
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-}
-form.sign-up-form {
-  opacity: 0;
-  z-index: 1;
-}
-form.sign-in-form {
-  z-index: 2;
-}
-.title {
-  font-size: 2.2rem;
-  color: #444;
-  margin-bottom: 10px;
-}
-.input-field {
-  max-width: 380px;
-  width: 100%;
-  background-color: #f0f0f0;
-  margin: 10px 0;
-  height: 55px;
-  border-radius: 55px;
-  display: grid;
-  grid-template-columns: 15% 85%;
-  padding: 0 0.4rem;
-  position: relative;
-}
-.input-field i {
-  text-align: center;
-  line-height: 55px;
-  color: #acacac;
-  transition: 0.5s;
-  font-size: 1.1rem;
-}
-.input-field input {
-  background: none;
-  outline: none;
-  border: none;
-  line-height: 1;
-  font-weight: 600;
-  font-size: 1.1rem;
-  color: #333;
-}
-.input-field input::placeholder {
-  color: #aaa;
-  font-weight: 500;
-}
-.social-text {
-  padding: 0.7rem 0;
-  font-size: 1rem;
-}
-.social-media {
-  display: flex;
-  justify-content: center;
-}
-.social-icon {
-  height: 46px;
-  width: 46px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 0.45rem;
-  color: #333;
-  border-radius: 50%;
-  border: 1px solid #333;
-  text-decoration: none;
-  font-size: 1.1rem;
-  transition: 0.3s;
-}
-.social-icon:hover {
-  color: #4481eb;
-  border-color: #4481eb;
-}
-.account-btn {
-  width: 150px;
-  background-color: #5995fd;
-  border: none;
-  outline: none;
-  height: 49px;
-  border-radius: 49px;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 600;
-  margin: 10px 0;
-  cursor: pointer;
-  transition: 0.5s;
-}
-.account-btn:hover {
-  background-color: #4d84e2;
-}
-.panels-container {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-.accounts-container:before {
-  content: "";
-  position: absolute;
-  height: 2000px;
-  width: 2000px;
-  top: -10%;
-  right: 48%;
-  transform: translateY(-50%);
-  background-image: linear-gradient(-45deg, #4481eb 0%, #04befe 100%);
-  transition: 1.8s ease-in-out;
-  border-radius: 50%;
-  z-index: 6;
-}
-.image {
-  width: 100%;
-  transition: transform 1.1s ease-in-out;
-  transition-delay: 0.4s;
-}
-.panel {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: space-around;
-  text-align: center;
-  z-index: 6;
-}
-.left-panel {
-  pointer-events: all;
-  padding: 3rem 17% 2rem 12%;
-}
-.right-panel {
-  pointer-events: none;
-  padding: 3rem 12% 2rem 17%;
-}
-.panel .content {
-  color: #fff;
-  transition: transform 0.9s ease-in-out;
-  transition-delay: 0.6s;
-}
-.panel h3 {
-  font-weight: 600;
-  line-height: 1;
-  font-size: 1.5rem;
-}
-.panel p {
-  font-size: 0.95rem;
-  padding: 0.7rem 0;
-}
-.account-btn.transparent {
-  margin: 0;
-  background: none;
-  border: 2px solid #fff;
-  width: 130px;
-  height: 41px;
-  font-weight: 600;
-  font-size: 0.8rem;
-}
-.right-panel .image, .right-panel .content {
-  transform: translateX(800px);
-}
-/* ANIMATION */
-.accounts-container.sign-up-mode:before {
-  transform: translate(100%, -50%);
-  right: 52%;
-}
-.accounts-container.sign-up-mode .left-panel .image, .accounts-container.sign-up-mode .left-panel .content {
-  transform: translateX(-800px);
-}
-.accounts-container.sign-up-mode .signin-signup {
-  left: 25%;
-}
-.accounts-container.sign-up-mode form.sign-up-form {
-  opacity: 1;
-  z-index: 2;
-}
-.accounts-container.sign-up-mode form.sign-in-form {
-  opacity: 0;
-  z-index: 1;
-}
-.accounts-container.sign-up-mode .right-panel .image, .accounts-container.sign-up-mode .right-panel .content {
-  transform: translateX(0%);
-}
-.accounts-container.sign-up-mode .left-panel {
-  pointer-events: none;
-}
-.accounts-container.sign-up-mode .right-panel {
-  pointer-events: all;
-}
+
+
+
 /*------------------------------------------ CART PAGE ------------------------------------------ */
 .cart-page {
   width: 98%;
@@ -1438,6 +1342,59 @@ footer .wave#wave4 {
     display: none;
   }
   /* PRODUCT PAGE */
+  .popup-card{
+    flex-direction: column;
+    width: 550px;
+    height: auto;
+  }
+
+  .popup-card .product_img{
+    z-index: 3;
+    width: 100%;
+    height: 200px;
+    transform: translateY(0);
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 10px;
+
+  }
+
+  .popup-card .product_img{
+    left: initial;
+    max-width: 100%;
+  }
+
+  .popup-card .product-info{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .popup-card .product-info h2{
+    margin: 20px 5px 5px 5px;
+    font-size: 25px;
+  }
+
+  .popup-card .product-info h2 span{
+    font-size: 10px;
+  }
+
+  .popup-card .product-info p{
+    margin: 5px;
+    font-size: 13px;
+  }
+
+  .popup-card .product-info .popup_price{
+    margin: 5px;
+    font-size: 30px;
+  }
+
+  .popup-card .close-btn{
+    z-index: 4;
+
+  }
+
   /*-----------------SHOP--------------------------*/
   .shopSec {
     margin-top: 10px;

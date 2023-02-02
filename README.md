@@ -3,88 +3,54 @@
 # SneakySneakers
 ## Background Information
 SneakySneakers is a fictional sneaker retailer that sells limited edition sneakers at competitive prices. We aim to provide customers with only 100% authentic sneakers for the community and supports the local sneaker community. 
-SneakySneakers is an idea from Ye Xuan's personal carousell sneaker reselling account SneakySnickers. This idea is 100% original by Ye Xuan Chua and Jeremy Chan.
-
+SneakySneakers is an idea from Ye Xuan's personal carousell sneaker reselling account SneakySnickers. This idea is 100% original by Ye Xuan Chua and Jeremy Chan
 
 ## Wireframe
-1. Home Page
- - Header 
- - Showcase Sneaker/Promotions
- - Product types
- - Promotional Video
- - Best Selling Sneakers
+ 1. Home Page
+ - Header
+ - Carousell Showcase (Featured sneakers, Promotions)
+ - Our 2 types of products
+ - Video Showcase 
+ - Best Selling Sneakers Showcase
  - Footer
- 
-2. Product Page
- - Header 
- - 9 total products (Product Image, Product Description, Product Price)
+ 2. Product Page
+ - Header
+ - 9 different products showcased
  - Footer
- 
-3. Specific Product Page
- - Header 
- - Product Type
- - Product Image
- - Product Description
- - Footer
- 
-4. About Page
+ 3. Specific Product Page
+ 4. About Page
  - Header
  - Company Mission
- - Company Features
+ - Our Stand Out Feature
  - Key Stand Out Feature
  - Footer
- 
-5. Enquiries/FAQ 
- - Header 
+ 5. Enquiries/FAQ
+ - Header
  - Footer
- 
-6. Login/Sign Up
- - Header 
- - Login for Exsisting Users (Username/Password)
- - Sign Up for new users (Username/Email/Password)
+ 6. Login/Sign Up
+ - Header
+ - Login for Exsisting Users
+ - Sign Up for new users
  - Footer
- 
-7. Shopping Cart
- - Header 
- - Product ID
- - Quantity 
- - Subtotal 
+ 7. Shopping Cart
+ - Header
+ - Products in Cart
  - Footer
- 
-8. Checkout/Payment/Address/Confirmation
- - Header 
- - Customer Address (Address, Postal Code, Country)
- - Payment Details (Name, Card Number, Expiry Date, CVC)
+ 8. Checkout/Payment/Address/Confirmation
+ - Header
+ - Customer Address
+ - Customer Payment
  - Order Confirmation
  - Footer
  
-## Colour Scheme
-### Primary Colours
-- White #FFF
-- Blue #5995FD
-### Secondary Colours
-- Blue #3586FF
-## Typography
+### Colour Scheme
+- White #0000
+
+
+### Typography
 - Google Fonts: Roboto
-## APIs
-1. Navigation Bar
-	1. Lottie Animation
-	2. Font Awesome Icons
-2. Home Page
-	1. Bootstrap
-3. Product Page
-	1. Font Awesome Icons
-4. About Page
-	1. Bootstrap
-	2. Font Awesome Icons
-5. Store Page
-	1. Mapbox
-	2. Bootstrap
-	3. Font Awesome Icons
-6. Account Page
-	1. Font Awesome Icons
-7. Footer	
-	1. Ionicons
+
+
 ## Products
 1. Jordan 1 High OG Patent Bred
 2. Jordan 1 High OG Chicago
@@ -106,4 +72,3 @@ SneakySneakers is an idea from Ye Xuan's personal carousell sneaker reselling ac
 6. Bootstrap
 7. Adobe Premiere Rush
 8. Lottie
-9. MapBox API
