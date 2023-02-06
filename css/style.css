@@ -74,6 +74,43 @@
   padding-top: 3%;
   padding-bottom: 3%;
 }
+
+.row.row-cols-1.row-cols-md-2.g-4 {
+  width: 90%;
+  margin: auto;
+}
+
+.mission {
+  position: relative;
+  text-align: center;
+  max-height: 100%;
+}
+
+.mission img {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.6;
+  margin-bottom: -4px;
+}
+
+.mission_txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+}
+
+.mission_head {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.mission_body {
+  font-size: 30px;
+  font-weight: 400;
+}
 /*------------------------------------CAROUSEL-----------------------------------------------*/
 .carousel-inner img {
   height: 900px;
@@ -100,7 +137,7 @@
   position: relative;
   overflow: hidden;
   padding: 20px;
-  display: none;
+
 }
 .wallpaper {
   padding-top: 1px;
@@ -433,7 +470,7 @@
   --text-color: #5995FD;
   --bg-color: #fff;
 }
-.shop.container {
+.shop_container {
   padding: 5rem 0 4rem;
 }
 .container {
@@ -633,7 +670,7 @@
   color: #fff;
   background: #555;
   position: absolute;
-  bottom: 20px;
+  bottom: 18px;
   left: 50%;
   transform: translateX(-50%);
   font-size: 12px;
@@ -647,7 +684,7 @@
 }
 
 .popup-view{
-  z-index: 2;
+  z-index: 12;
   background-color: rgba(255, 255, 255, 0.5);
   position: fixed;
   top: 0;
@@ -675,7 +712,7 @@
 }
 
 .product_img{
-  z-index: 2;
+  z-index: 12;
   background: rgba(236,238,239,255);
   position: relative;
   display: flex;
@@ -690,7 +727,7 @@
 }
 
 .product_img img{
-  z-index: 2;
+  z-index: 12;
   position: relative;
   width: 450px;
   left: -50px;
@@ -699,7 +736,7 @@
 
 .popup-card .product_info
 {
-  z-index: 2;
+  z-index: 12;
   background: #1d212b;
   display: flex;
   flex-direction: column;
@@ -713,7 +750,7 @@
 
 .popup-card .close-btn{
   color: #555;
-  z-index: 3;
+  z-index: 13;
   position: absolute;
   right: 0;
   font-size: 20px;
@@ -1206,6 +1243,18 @@ footer .wave#wave4 {
 }
 /*------------------------------------------ RESPONSIVE MEDIA VIEWS STARTS HERE ------------------------------------------ */
 @media (max-width: 870px) {
+  /*-------------HOME-----------------*/
+  .mission_head {
+    font-size: 38px;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+
+  
+  .row.row-cols-1.row-cols-md-2.g-4{
+    width: 100%; 
+    margin: auto;
+  }
   /*--------------ABOUT-------------------*/
   .fa-solid.fa-arrow-right {
     transform: rotate(90deg);
@@ -1245,7 +1294,11 @@ footer .wave#wave4 {
 
   /*-----HOME-------*/
   .product{
-    display: inline;
+    
+  }
+
+  .shop_container{
+    display: none;
   }
   
   /*--------------FAQ-------------------*/
@@ -1380,12 +1433,12 @@ footer .wave#wave4 {
 
   }
 
-  .popup-card .product_img{
+  .popup-card .product_img img{
     left: initial;
     max-width: 100%;
   }
 
-  .popup-card .product-info{
+  .popup-card .product_info{
     width: 100%;
     height: auto;
     padding: 20px;
@@ -1393,21 +1446,21 @@ footer .wave#wave4 {
     border-top-right-radius: 0;
   }
 
-  .popup-card .product-info h2{
+  .popup-card .product_info h2{
     margin: 20px 5px 5px 5px;
     font-size: 25px;
   }
 
-  .popup-card .product-info h2 span{
+  .popup-card .product_info h2 span{
     font-size: 10px;
   }
 
-  .popup-card .product-info p{
+  .popup-card .product_info p{
     margin: 5px;
     font-size: 13px;
   }
 
-  .popup-card .product-info .popup_price{
+  .popup-card .product_info .popup_price{
     margin: 5px;
     font-size: 30px;
   }
@@ -1571,7 +1624,7 @@ footer .wave#wave4 {
 	.shop {
 		margin-bottom: 6rem;
 	}
-	.shop.container {
+	.shop_container {
 		margin-top: 6rem !important;
 	}
 	/* FAQ PAGE */
