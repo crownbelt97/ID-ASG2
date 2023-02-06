@@ -756,13 +756,13 @@ li {
 	margin-bottom: -5rem;
 }
 .store-body {
-  margin-top: 10px;
+  margin-top: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   padding: 1rem;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 .store-container {
   border: 3px solid #5995FD;
