@@ -64,6 +64,45 @@
           <i class='bx bx-x' id="close-cart"></i> </div>
 <!-- ACCOUNT PAGE CONTENTS -->
 
+<div class="container">
+  <h1>Simple Contact Form System</h1>
+  <div id="add-update-msg">
+    <div class="alert alert-success" role="alert">
+      Contact record successfully added
+    </div>
+  </div>
+  <div class="form" id="add-contact">
+    <form id="add-contact-form">
+      <div class="form-group">
+        <label for="account_name">Username</label>
+          <input type="text" id="account_name" class="form-control" required>
+        </div>
+      <div class="form-group">
+        <label for="account_pw">Password</label>
+          <input type="text" id="account_pw" class="form-control" required>
+        </div>
+
+        <input type="submit" value="Send" class="btn btn-primary" id="contact-submit">
+    </form>
+  </div>
+</div><!-- end add container --> 
+
+<div class="container mt-5">
+  <h2>Table information of Contacts (<span id="total-contacts"></span>)</h2>
+  <table class="table" id="contact-list">
+    <thead>
+      <th>Username</th>
+    <th>Password</th>
+
+    </thead>
+    <!-- This will be filled with information later -->
+    <tbody></tbody>
+  </table>
+</div>
+
+
+
+
 
 <!-- FOOTER CONTENTS -->
 <footer>
