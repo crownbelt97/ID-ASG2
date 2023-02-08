@@ -19,7 +19,7 @@
   justify-content: space-between;
   background-color: white;
   box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
-  z-index: 100;
+  z-index: 50;
   top: 0;
   left: 0;
   width: 100%;
@@ -71,8 +71,8 @@
   transition: .4s ease-in-out;
 }
 .featured {
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 0;
+  padding-bottom: 5%;
 }
 
 .row.row-cols-1.row-cols-md-2.g-4 {
@@ -122,16 +122,55 @@
 
 .home_collection_text {
   color: black;
-  font-weight: 300;
+  font-weight: 600;
 }
 
 .home_collection {
-  font-weight: 300;
+  font-weight: 600;
 }
 
 .home_collection2_text {
   color: black;
+  font-weight: 500;
 }
+
+.home_collect_white{
+  font-weight: 500;
+}
+
+/*--------------------------------------------Best Selling--------------------------------------------*/
+.home_shop_container {
+  padding: 4rem 0 6rem;
+}
+
+.home_shop_content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+  gap: 4rem;
+  width: 80%;
+  justify-content: center;
+  padding-left: 20%;
+}
+
+.home_popup-btn{
+  z-index: 0;
+  color: #fff;
+  background: #4d84e2;
+  position: absolute;
+  bottom: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 8px 13px;
+  border-radius: 20px;
+  margin-bottom: 25%;
+  cursor: pointer;
+}
+
+
 /*------------------------------------ PRODUCT SLIDER -----------------------------------------------*/
 .product {
   position: relative;
@@ -140,6 +179,8 @@
 	display: none;
 
 }
+
+
 .wallpaper {
   padding-top: 1px;
   background-image: url("../Resources/bg_main.png");
@@ -315,6 +356,10 @@
   box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
 }
 /*------------------------------------FAQ PAGE-----------------------------------------------*/
+.faq-section{
+  margin-top: 12rem;
+}
+
 .faq-title {
   font-size: 50px;
   text-align: center;
@@ -466,13 +511,21 @@
 .contact-button input[type="button"]:hover {
   background: #4d84e2;
 }
+
+.sneaker_store{
+  height: 500px;
+  width: 900px;
+}
 /*------------------------------------ PRODUCT PAGE -----------------------------------------------*/ :root {
   --main-color: #fd4646;
   --text-color: #5995FD;
   --bg-color: #fff;
 }
-.shop_container {
-  padding: 5rem 0 4rem;
+
+
+
+.shop.container {
+  padding: 4rem 0 6rem;
 }
 .container {
   max-width: 1068px;
@@ -685,7 +738,7 @@
 }
 
 .popup-view{
-  z-index: 12;
+  z-index: 51;
   background-color: rgba(255, 255, 255, 0.5);
   position: fixed;
   top: 0;
@@ -1140,6 +1193,8 @@ label {
 .checkout-btn:hover {
   background-color: rgb(4, 88, 167);
 }
+
+
 /*------------------------------------------ FOOTER ------------------------------------------ */
 footer {
   position: relative;
@@ -1251,11 +1306,16 @@ footer .wave#wave4 {
     margin-bottom: 10px;
   }
 
-  
+
   .row.row-cols-1.row-cols-md-2.g-4{
     width: 100%; 
     margin: auto;
   }
+
+  .home_shop_container {
+    display: none;
+  }
+
   /*--------------ABOUT-------------------*/
   .fa-solid.fa-arrow-right {
     transform: rotate(90deg);
@@ -1332,6 +1392,11 @@ footer .wave#wave4 {
     width: 100%;
     margin-left: 0;
   }
+
+  .sneaker_store{
+    display: none;
+  }
+
   /*--------------ABOUT ENDS-------------------*/
   .accounts-container {
     min-height: 800px;
@@ -1471,7 +1536,18 @@ footer .wave#wave4 {
 
   }
 
-  /*-----------------SHOP--------------------------*/
+  /*-----------------PRODUCT--------------------------*/
+  .shop.container {
+    padding: 9rem 0 6rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
   .shopSec {
     margin-top: 10px;
     padding-bottom: 7%;
@@ -1485,6 +1561,12 @@ footer .wave#wave4 {
     color: black;
     font-size: 37px;
   }
+
+  .shop-content {
+    width: 80%;
+    margin-left: 10%;
+  }
+
   .shopProducts {
     display: grid;
     grid-template-columns: 1fr;
@@ -1502,6 +1584,7 @@ footer .wave#wave4 {
     font-size: 30px;
     color: white;
   }
+
   /*-----------------STORE--------------------------*/
   .wrapper {
     flex-direction: column;
