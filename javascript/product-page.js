@@ -80,7 +80,7 @@ function addCartClicked(event) {
   addProductToCart(title, price, productImg);
   updatetotal();
 }
-
+// Adding to Cart
 function addProductToCart(title, price, productImg) {
   var cartShopBox = document.createElement("div");
   cartShopBox.classList.add("cart-box");

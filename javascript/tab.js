@@ -1,7 +1,10 @@
 // JavaScript Document
 
+//Choosing locations to appear by selecting each lists
 const allIndicator = document.querySelectorAll('.store-indicator li');
 const allContent = document.querySelectorAll('.store-content li');
+
+//onClick function to switch into selected locations
 
 allIndicator.forEach(item=> {
   item.addEventListener('click', function () {
@@ -14,7 +17,7 @@ allIndicator.forEach(item=> {
     allContent.forEach(i=> {
       i.classList.remove('active');
     })
-
+//Resizing Maps when clicked into individual location tabs
     content.classList.add('active');
     this.classList.add('active');
 	  map.resize();

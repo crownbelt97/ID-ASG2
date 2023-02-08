@@ -137,6 +137,7 @@
   position: relative;
   overflow: hidden;
   padding: 20px;
+	display: none;
 
 }
 .wallpaper {
@@ -1294,7 +1295,7 @@ footer .wave#wave4 {
 
   /*-----HOME-------*/
   .product{
-    
+    display: unset;
   }
 
   .shop_container{
