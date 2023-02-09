@@ -3,7 +3,7 @@
 # SneakySneakers
 ## Background Information
 SneakySneakers is a fictional sneaker retailer that sells limited edition sneakers at competitive prices. We aim to provide customers with only 100% authentic sneakers for the community and supports the local sneaker community. 
-SneakySneakers is an idea from Ye Xuan's personal carousell sneaker reselling account SneakySnickers. This idea is 100% original by Ye Xuan Chua and Jeremy Chan
+SneakySneakers is an idea from Ye Xuan's personal carousell sneaker reselling account SneakySnickers and our love and passion for sneakers. This idea is 100% original by Ye Xuan Chua and Jeremy Chan. 
 
 ## Wireframe
  1. Home Page
@@ -43,9 +43,62 @@ SneakySneakers is an idea from Ye Xuan's personal carousell sneaker reselling ac
  - Order Confirmation
  - Footer
  
+## Implemented Website Features
+### -Responsive Navigation Bar
+- Lottie Anitmated Sneaker Icon]
+- Buttons linked to Home, Products, About, Stores and Contact Pages
+- Shopping Cart with Login Icon Buttons
+
+### -Responsive Footer
+- Design -> Overlapping Wave Animation
+- Linked Google, Github and Instagram Buttons (to my personal sneaker Instagram Account)
+- Links to Home, Product, About, Stores, Contact Pages
+
+ 1. Home Page (Index.html)
+ - Responsive Nav Bar
+ - Carousell Showcase (Featured sneakers, Promotions ($20 off first purchase))
+ - Our 2 types of products (will link to main product page)
+ - Video Showcase (Limited Edition Ebay Dunk Low)
+ - Best Selling Sneakers Showcase (3 sneakers with view product button to product page)
+ - Responsive slider for Best Selling Sneakers Showcase
+ - Responsive Footer
+ 2. Product Page
+ - Responsive Nav Bar
+ - 10 different product grids
+ - Specific Modal Pop Up for each individual product (Sneaker image, Sneaker description and Price)
+ - Responsive Footer
+ 4. About Page
+ - Responsive Nav Bar
+ - Company Mission
+ - Our 6 Unique Features (Why Choose Us?)
+ - Unique Shipping Process (From Us to You)
+ - Responsive Footer
+ 5. Contact/FAQ
+ - Responsive Nav Bar
+ - FAQ Dropdown (3 common queries)
+ - Contact Us form (Name, Email, Message, Send, Left- Addresses, Phone No., Email)
+ - Responsive Footer
+ 6. Login/Sign Up
+ - Responsive Nav Bar
+ - Login for Exsisting Users
+ - Sign Up for new users
+ - Responsive Footer
+ 7. Shopping Cart
+ - Responsive Nav Bar
+ - Products in Cart
+ - Total Amount + Discount Amount
+ - Buy Now Button -> To Checkout 
+ - Responsive Footer
+ 8. Checkout/Payment/Address/Confirmation
+ - Responsive Nav Bar
+ - Customer Payment Details (Name, Card No, Expiry Date, CVC)
+ - Customer Address Details (First Address, Second Address, Postal Code, Country/City)
+ - Order Confirmation (Thank You For Your Purchase + GIF)
+ - Responsive Footer
+
 ### Colour Scheme
 - White #0000
-
+- Blue Code #5995FD
 
 ### Typography
 - Google Fonts: Roboto
@@ -64,7 +117,6 @@ SneakySneakers is an idea from Ye Xuan's personal carousell sneaker reselling ac
 10. Nike Dunk Low Sean Cliver
 
 
-
 ## Technologies Used 
 1. HTML, CSS
 2. JavaScript
@@ -74,3 +126,8 @@ SneakySneakers is an idea from Ye Xuan's personal carousell sneaker reselling ac
 6. Bootstrap
 7. Adobe Premiere Rush
 8. Lottie
+9. RestDB
+
+## References for Resources
+1. Youtube
+2. StockX
