@@ -53,14 +53,16 @@ SneakySneakers is an idea from Ye Xuan's personal carousell sneaker reselling ac
 
 ## Products
 1. Jordan 1 High OG Patent Bred
-2. Jordan 1 High OG Chicago
+2. Jordan 1 High OG Lost and Found
 3. Jordan 1 High OG Hyper Royal 
-4. PEACEMINUSONE Nike Air Force 1 Low
-5. Nike Dunk Low Gym Red 
-6. Nike Dunk Low Black/White
-7. Nike Dunk Low Syracuse 
-8. Nike Dunk Low Kentucky
-9. Jordan 1 Low Dior
+4. Jordan 1 High OG Court Purple
+5. Jordan 1 High OG Travis Scott
+6. Nike Dunk Low Ebay
+7. Nike Dunk Low Black/White
+8. Nike Dunk Low Syracuse 
+9. Nike Dunk Low Kentucky
+10. Nike Dunk Low Sean Cliver
+
 
 
 ## Technologies Used 
