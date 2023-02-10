@@ -9,6 +9,12 @@ SneakySneakers is insipired by Ye Xuan's personal carousell sneaker reselling ac
 - Responsive for desktop view and mobile view
 - Google Fonts best viewed on Chrome
 
+## Walkthrough Video Link
+https://drive.google.com/file/d/1R_fzYWi-RZDBhN-AuVeC3WVIA3BOXKa-/view?usp=sharing
+
+## Github Link
+https://github.com/crownbelt97/ID-ASG2
+
 ## Wireframe
  1. Home Page
  - Header
