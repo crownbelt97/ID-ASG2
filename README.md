@@ -3,7 +3,11 @@
 # SneakySneakers
 ## Background Information
 SneakySneakers is a fictional sneaker retailer that sells limited edition sneakers at competitive prices. We aim to provide customers with only 100% authentic sneakers for the community and supports the local sneaker community. 
-SneakySneakers is an idea from Ye Xuan's personal carousell sneaker reselling account SneakySnickers and our love and passion for sneakers. This idea is 100% original by Ye Xuan Chua and Jeremy Chan. 
+SneakySneakers is insipired by Ye Xuan's personal carousell sneaker reselling account SneakySnickers and our love and passion for sneakers. This idea is 100% original by Ye Xuan Chua and Jeremy Chan. 
+
+## Notes to Viewers
+- Responsive for desktop view and mobile view
+- Google Fonts best viewed on Chrome
 
 ## Wireframe
  1. Home Page
@@ -56,32 +60,33 @@ SneakySneakers is an idea from Ye Xuan's personal carousell sneaker reselling ac
 
  1. Home Page (Index.html)
  - Responsive Nav Bar
- - Carousel Showcase autoplay (Featured sneakers, Promotions ($20 off first purchase))
- - Our 2 types of products (will link to main product page)
- - Video Showcase (Limited Edition Ebay Dunk Low)
- - Best Selling Sneakers Showcase (3 sneakers with view product button to product page)
+ - Carousel Showcase + autoplay (Featured sneakers, Promotions ($20 off first purchase))
+ - Our 2 types of products + hover will change opacity (will link to main product page)
+ - Video Showcase autoplay (Limited Edition Ebay Dunk Low)
+ - Best Selling Sneakers Showcase + hover pop up (3 sneakers with view product button to product page)
  - Responsive slider for Best Selling Sneakers Showcase
  - Responsive Footer
  2. Product Page
  - Responsive Nav Bar
- - 10 different product grids
+ - 10 different product grids + quick view button to modal + hover pop-up
+ - Add to cart button in each grid which adds product to cart
  - Specific Modal Pop Up for each individual product (Sneaker image, Sneaker description and Price)
  - Responsive Footer
  4. About Page
  - Responsive Nav Bar
- - Company Mission
+ - Company Mission with Learn More button to FAQ Page
  - Our 6 Unique Features (Why Choose Us?)
  - Unique Shipping Process (From Us to You)
  - Responsive Footer
  5. Contact/FAQ
  - Responsive Nav Bar
- - FAQ Dropdown (3 common queries)
+ - FAQ Dropdown (4 common queries)
  - Contact Us form (Name, Email, Message, Send, Left- Addresses, Phone No., Email)
  - Responsive Footer
  6. Login/Sign Up
  - Responsive Nav Bar
- - Login for Exsisting Users
- - Sign Up for new users
+ - Login for Exsisting Users (Username + Password)
+ - Sign Up for new users (Username + Password + Confirm Password)
  - Responsive Footer
  7. Shopping Cart
  - Responsive Nav Bar
@@ -127,7 +132,12 @@ SneakySneakers is an idea from Ye Xuan's personal carousell sneaker reselling ac
 7. Adobe Premiere Rush
 8. Lottie
 9. RestDB
+10. JQuery
+11. MapBox Api
 
 ## References for Resources
 1. Youtube
 2. StockX
+3. Ion Icon
+4. Font Awesome
+5. Nike.com
