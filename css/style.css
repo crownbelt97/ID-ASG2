@@ -123,6 +123,11 @@
   object-fit: cover;
 }
 
+.carousel-item-img {
+	height: 900px;
+  object-fit: cover;
+}
+
 #carouselExampleAutoplaying {
   margin: 8.4rem 0;
 }
