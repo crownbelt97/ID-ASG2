@@ -25,7 +25,7 @@
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 
-<body>
+<body class="account_body">
 <!-- NAVIGATION BAR -->
 <header class="primary-header flex">
   <div><a href="index.html">
@@ -66,41 +66,71 @@
           <i class='bx bx-x' id="close-cart"></i> </div>
 <!-- ACCOUNT PAGE CONTENTS -->
 
-<div class="container">
-  <h1>Simple Contact Form System</h1>
-  <div id="add-update-msg">
-    <div class="alert alert-success" role="alert">
-      Contact record successfully added
-    </div>
+
+
+<div class="account_container">
+  <!-- login form -->
+  <div class="login-wrap lactive">
+      <div class="account_title">
+          <h1>Login</h1>
+      </div>
+
+      <form action="#">
+          <div class="account_input-area">
+              <input type="name" id="name" autocomplete="off" required>
+              <label for="name">Username</label>
+          </div>
+
+          <div class="account_input-area">
+              <input type="password" id="password" required>
+              <label for="password">Password</label>
+          </div>
+
+          <div class="account_button-area">
+              <button type="submit" class="login-btn">Login</button>
+          </div>
+      </form>
+
+      <div class="form-toggle-area">
+          <p>Not a member? <span id="toggle-signup">Sign Up</span></p>
+      </div>
   </div>
-  <div class="form" id="add-contact">
-    <form id="add-contact-form">
-      <div class="form-group">
-        <label for="account_name">Username</label>
-          <input type="text" id="account_name" class="form-control" required>
-        </div>
-      <div class="form-group">
-        <label for="account_pw">Password</label>
-          <input type="text" id="account_pw" class="form-control" required>
+
+  <!-- signup form -->
+  <div class="signup-wrap">
+      <div class="account_title">
+          <h1>Sign Up</h1>
+      </div>
+
+      <form action="#">
+          <div class="account_input-area">
+              <input type="text" id="name" autocomplete="off" required>
+              <label for="name">Username</label>
+          </div>
+
+          <div class="account_input-area">
+              <input type="password" id="password" required>
+              <label for="password">Password</label>
+          </div>
+
+          
+          <div class="account_input-area">
+            <input type="password" id="password" autocomplete="off" required>
+            <label for="password">Confirm Password</label>
         </div>
 
-        <input type="submit" value="Send" class="btn btn-primary" id="contact-submit">
-    </form>
+          <div class="account_button-area">
+              <button type="submit" class="signup-btn">Sign Up</button>
+          </div>
+      </form>
+
+      <div class="form-toggle-area">
+          <p>Have an account? <span id="toggle-login">Login now</span></p>
+      </div>
   </div>
-</div><!-- end add container --> 
-
-<div class="container mt-5">
-  <h2>Table information of Contacts (<span id="total-contacts"></span>)</h2>
-  <table class="table" id="contact-list">
-    <thead>
-      <th>Username</th>
-    <th>Password</th>
-
-    </thead>
-    <!-- This will be filled with information later -->
-    <tbody></tbody>
-  </table>
 </div>
+
+<script src="account.js"></script>
 
 
 

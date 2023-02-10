@@ -44,19 +44,19 @@ SneakySneakers is an idea from Ye Xuan's personal carousell sneaker reselling ac
  - Footer
  
 ## Implemented Website Features
-### -Responsive Navigation Bar
-- Lottie Anitmated Sneaker Icon]
-- Buttons linked to Home, Products, About, Stores and Contact Pages
+### Responsive Navigation Bar
+- Lottie Anitmated Sneaker Icon
+- Buttons linked to Home, Products, About, Stores and Contact Pages (Selected Page will turn blue)
 - Shopping Cart with Login Icon Buttons
 
-### -Responsive Footer
+### Responsive Footer
 - Design -> Overlapping Wave Animation
-- Linked Google, Github and Instagram Buttons (to my personal sneaker Instagram Account)
-- Links to Home, Product, About, Stores, Contact Pages
+- Linked Google, Github and Instagram Buttons with hover pop-up (to my personal sneaker Instagram Account)
+- Links to Home, Product, About, Stores, Contact Pages with hover pop-up
 
  1. Home Page (Index.html)
  - Responsive Nav Bar
- - Carousell Showcase (Featured sneakers, Promotions ($20 off first purchase))
+ - Carousel Showcase autoplay (Featured sneakers, Promotions ($20 off first purchase))
  - Our 2 types of products (will link to main product page)
  - Video Showcase (Limited Edition Ebay Dunk Low)
  - Best Selling Sneakers Showcase (3 sneakers with view product button to product page)
